@@ -1,0 +1,4 @@
+curl localhost:8080/oauth/token -d scope=read -d grant_type=password -d username=user -d password=password -u <clientid>:<sercret_key>
+
+
+curl localhost:8081/test -H "Authorization: Bearer  <auth_token>"
